@@ -1,0 +1,27 @@
+<p-carousel [value]="experience" styleClass="custom-carousel" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="8000" [responsiveOptions]="responsiveOptions">
+    <ng-template pTemplate="header">
+        <h1>Experience</h1>
+    </ng-template>
+    <ng-template let-experience pTemplate="item">
+        <div class="experience-item">
+            <div class="experience-item-content">
+                <div class="p-mb-3">
+                </div>
+                <div>
+                    <img class="experience-image"
+                        
+                        [src]='experience.expCompanyLogo'
+                    />
+        
+                    <h4 class="p-mb-2">{{experience.expCompanyName}}</h4>
+                    <h5 class="p=mb-1">{{experience.expStartDate}} - {{experience.expEndDate}}</h5>
+                    <h6 class="p-mt-0 p-mb-3">{{experience.expDescription}}</h6>
+                    <div class="car-buttons p-mt-5">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>

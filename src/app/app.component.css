@@ -1,0 +1,29 @@
+.navbar-custom { 
+    background-color: #F5F5F580;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-custom .navbar-brand {
+    color:darkblue;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 2%;
+}
+
+.nav-pills-custom {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-pills-custom .nav-link {
+    color: slategray;
+}
+
+.nav-pills-custom .nav-link:hover {
+    color:black;
+}
+
+.img {
+    src:"./favicon.ico";
+}

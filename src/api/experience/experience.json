@@ -1,0 +1,27 @@
+[
+    {
+      "expCompanyName": "Thales Australia",
+      "expStartDate": "2/21",
+      "expEndDate": "11/21",
+      "expPositionName": "Student Developer",
+      "expCompanyLogo": "assets/images/thales.jpg",
+      "expDescription": "It was fun"
+
+    },
+    {
+      "expCompanyName": "Diversus",
+      "expStartDate": "6/21",
+      "expEndDate": "12/21",
+      "expPositionName": "Intern Developer",
+      "expCompanyLogo": "assets/images/diversus.jpg",
+      "expDescription": "It was fun"
+    },
+    {
+      "expCompanyName": "Amazon",
+      "expStartDate": "12/21",
+      "expEndDate": "2/22",
+      "expPositionName": "Professional Services Intern",
+      "expCompanyLogo": "assets/images/aws.jpg",
+      "expDescription": "It will be fun"
+    }
+]
